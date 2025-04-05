@@ -12,7 +12,7 @@
           "explanation": "The highest rank in the chain of command is Chief of Police."
       },
       {
-          "question": "Which rank comes immediately before 'Cadet'?",
+          "question": "Which rank comes immediately after 'Cadet'?",
           "options": {
               "A": "Probationary Officer",
               "B": "Senior Officer",
