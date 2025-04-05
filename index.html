@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="quiz_icon.ico" type="image/x-icon" />
+  <title>Milo's Cadet Sheet Quiz</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Milo's Cadet Sheet Quiz</h1>
+
+    <div id="section-select">
+      <h3>Select Sections:</h3>
+      <div class="section-list" id="section-list"></div>
+
+      <h3>Select 10-Code Difficulty:</h3>
+      <div class="mode-choice">
+        <label><input type="radio" name="codeMode" value="easy" checked> Easy</label>
+        <label><input type="radio" name="codeMode" value="hard"> Hard</label>
+      </div>
+
+      <div class="bottom-buttons" id="start-controls">
+        <button class="btn" onclick="selectAllSections()">Select All Sections</button>
+        <button class="btn" onclick="startQuiz()">Start Quiz</button>
+      </div>
+    </div>
+
+    <div id="quiz" style="display: none;">
+      <h3 id="progress"></h3>
+      <div class="question" id="question-text"></div>
+      <div class="options" id="options"></div>
+      <div class="feedback" id="feedback"></div>
+    </div>
+
+    <div class="bottom-buttons" id="quiz-controls" style="display: none;">
+      <button class="btn" onclick="submitAnswer()" id="submit-btn">Submit Answer</button>
+      <button class="btn-exit" onclick="exitQuiz()">Exit</button>
+    </div>
+  </div>
+</body>
+</html>

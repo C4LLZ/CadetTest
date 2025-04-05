@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #2b2d31;
+    color: white;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+  h1, h2, h3 {
+    color: white;
+  }
+  .section-list label,
+  .mode-choice label {
+    display: block;
+    margin: 8px 0;
+  }
+  .question {
+    margin: 20px 0;
+  }
+  .options label {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+  }
+  .btn {
+    background-color: #3ba55c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 6px 4px 0 0;
+  }
+  .btn-exit {
+    background-color: #d33;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 6px 4px 0 0;
+  }
+  .btn:hover {
+    background-color: #2d7d46;
+  }
+  .feedback {
+    margin-top: 15px;
+    font-style: italic;
+    color: #b9bbbe;
+  }
+  .bottom-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  @media (max-width: 600px) {
+    .btn, .btn-exit {
+      width: 100%;
+      font-size: 18px;
+      padding: 16px;
+    }
+    .bottom-buttons {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #2b2d31;
+      padding: 10px;
+      border-top: 1px solid #444;
+      z-index: 100;
+    }
+  }

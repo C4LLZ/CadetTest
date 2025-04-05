@@ -1,0 +1,1437 @@
+{
+  "Chain of Command": [
+      {
+          "question": "What is the highest rank in the chain of command?",
+          "options": {
+              "A": "Officer",
+              "B": "Chief of Police",
+              "C": "Cadet",
+              "D": "Sergeant"
+          },
+          "answer": "B",
+          "explanation": "The highest rank in the chain of command is Chief of Police."
+      },
+      {
+          "question": "Which rank comes immediately before 'Cadet'?",
+          "options": {
+              "A": "Probationary Officer",
+              "B": "Senior Officer",
+              "C": "Corporal",
+              "D": "Officer"
+          },
+          "answer": "A",
+          "explanation": "The rank immediately before Cadet is Probationary Officer."
+      }
+  ],
+  
+  "Code Amber and Red": [
+      {
+          "question": "Who is authorized to call Code Amber?",
+          "options": {
+              "A": "Officer",
+              "B": "Sergeant",
+              "C": "Senior Officer or above",
+              "D": "Cadet"
+          },
+          "answer": "C",
+          "explanation": "Code Amber is called by a Senior Officer or higher."
+      },
+      {
+          "question": "What happens automatically when a stolen emergency vehicle is encountered?",
+          "options": {
+              "A": "It is ignored",
+              "B": "It is automatically ambered",
+              "C": "It is code red",
+              "D": "The suspect is immediately arrested"
+          },
+          "answer": "B",
+          "explanation": "Stolen emergency vehicles are automatically ambered."
+      }
+  ],
+  
+  "Definitions for Law Enforcement": [
+      {
+          "question": "What does LEO stand for?",
+          "options": {
+              "A": "Law Enforcement Officer",
+              "B": "Legal Entry Official",
+              "C": "Local Emergency Operative",
+              "D": "Lawful Evidence Operator"
+          },
+          "answer": "A",
+          "explanation": "LEO stands for Law Enforcement Officer."
+      },
+      {
+          "question": "What does 'Reasonable Suspicion' allow an officer to do?",
+          "options": {
+              "A": "Arrest and search a suspect",
+              "B": "Detain a suspect but not search or seize",
+              "C": "Search a suspect without detaining",
+              "D": "Immediately use deadly force"
+          },
+          "answer": "B",
+          "explanation": "Reasonable Suspicion allows for detainment, but not for search and seizure."
+      }
+  ],
+  
+  "Case Laws": [
+      {
+          "question": "Which case permits the use of deadly force on a fleeing suspect if they pose a threat?",
+          "options": {
+              "A": "Terry v. Ohio",
+              "B": "Miranda v. Arizona",
+              "C": "Tennessee v. Garner",
+              "D": "Brady v. Maryland"
+          },
+          "answer": "C",
+          "explanation": "Tennessee v. Garner allows the use of deadly force on a fleeing suspect if you believe they may kill or injure officers or others."
+      },
+      {
+          "question": "Terry v. Ohio allows officers to stop and frisk a suspect based on what standard?",
+          "options": {
+              "A": "Probable cause",
+              "B": "Reasonable suspicion",
+              "C": "After an arrest warrant",
+              "D": "Only when the suspect is armed"
+          },
+          "answer": "B",
+          "explanation": "Terry v. Ohio allows officers to stop and frisk a suspect based on reasonable suspicion."
+      }
+  ],
+  
+  "Amendments": [
+      {
+          "question": "Which amendment protects citizens against unreasonable searches and seizures?",
+          "options": {
+              "A": "1st Amendment",
+              "B": "4th Amendment",
+              "C": "5th Amendment",
+              "D": "6th Amendment"
+          },
+          "answer": "B",
+          "explanation": "The 4th Amendment protects citizens against unreasonable searches and seizures."
+      },
+      {
+          "question": "Which amendment guarantees the right to a speedy and public trial?",
+          "options": {
+              "A": "4th Amendment",
+              "B": "5th Amendment",
+              "C": "6th Amendment",
+              "D": "7th Amendment"
+          },
+          "answer": "C",
+          "explanation": "The 6th Amendment guarantees the right to a speedy and public trial."
+      }
+  ],
+  
+  "Miranda Rights": [
+      {
+          "question": "Before questioning a detained or arrested suspect, what must an officer do?",
+          "options": {
+              "A": "Search the suspect",
+              "B": "Read the Miranda Rights",
+              "C": "Call for backup",
+              "D": "Take a DNA sample"
+          },
+          "answer": "B",
+          "explanation": "Officers must read the Miranda Rights to the suspect before questioning."
+      },
+      {
+          "question": "What is the key phrase to ensure a suspect understands their Miranda Rights?",
+          "options": {
+              "A": "Do you understand these rights?",
+              "B": "Please remain silent.",
+              "C": "You are under arrest.",
+              "D": "Follow my commands."
+          },
+          "answer": "A",
+          "explanation": "The officer must confirm the suspect's understanding with a clear 'Yes' or 'No' after stating the rights."
+      }
+  ],
+  
+  "Use of Force": [
+      {
+          "question": "What is Level 1 on the Use of Force Continuum?",
+          "options": {
+              "A": "Physical Control",
+              "B": "Less-Lethal Methods",
+              "C": "Officer Presence",
+              "D": "Lethal Force"
+          },
+          "answer": "C",
+          "explanation": "Level 1 is Officer Presence, where no physical force is needed—the mere presence of an officer deters crime."
+      },
+      {
+          "question": "When should force be immediately decreased?",
+          "options": {
+              "A": "When the suspect flees",
+              "B": "As resistance decreases",
+              "C": "When backup arrives",
+              "D": "After arrest"
+          },
+          "answer": "B",
+          "explanation": "Force should be immediately decreased as resistance decreases."
+      }
+  ],
+  
+  "Detainments, Arrests, Searches and Seizures": [
+      {
+          "question": "Under what condition can a person be detained?",
+          "options": {
+              "A": "When there is reasonable suspicion",
+              "B": "Only after an arrest warrant is issued",
+              "C": "Based on a tip from another officer",
+              "D": "Only during a felony stop"
+          },
+          "answer": "A",
+          "explanation": "A person may be detained if there is reasonable suspicion, but not enough for a full arrest or search."
+      },
+      {
+          "question": "Before asking incriminating questions, what must be done?",
+          "options": {
+              "A": "The suspect must be read their Miranda Rights",
+              "B": "The suspect's vehicle must be searched",
+              "C": "The suspect must sign a waiver",
+              "D": "A warrant must be obtained"
+          },
+          "answer": "A",
+          "explanation": "Miranda Rights must be read to the suspect before asking questions that could lead to self-incrimination."
+      }
+  ],
+  
+  "Radio Communication": [
+      {
+          "question": "What is the recommended format when contacting another unit?",
+          "options": {
+              "A": "Just the unit number",
+              "B": "'hey YOU it is ME'",
+              "C": "Only the call sign",
+              "D": "State your name only"
+          },
+          "answer": "B",
+          "explanation": "The recommended format is the 'hey YOU it is ME' style for clear communication."
+      },
+      {
+          "question": "How would you contact another department on the radio?",
+          "options": {
+              "A": "Say 'PD from DOC'",
+              "B": "Say 'DOC from PD'",
+              "C": "Just say 'backup needed'",
+              "D": "Call the department directly"
+          },
+          "answer": "B",
+          "explanation": "When contacting another department, you say 'DOC from PD' (or 'EMS from PD' as applicable)."
+      }
+  ],
+  
+  "Traffic Stops": [
+      {
+          "question": "During a traffic stop, what is one of the first actions you must take?",
+          "options": {
+              "A": "Immediately approach the vehicle",
+              "B": "Turn on your lights and sirens behind the vehicle",
+              "C": "Order the driver to exit the vehicle",
+              "D": "Call for backup"
+          },
+          "answer": "B",
+          "explanation": "You must first turn on your lights and sirens and position your cruiser appropriately."
+      },
+      {
+          "question": "What phrase indicates that a traffic stop is clear?",
+          "options": {
+              "A": "10-11",
+              "B": "Code Red",
+              "C": "Code 4 10-8",
+              "D": "Need a 77"
+          },
+          "answer": "C",
+          "explanation": "Saying 'Code 4 10-8' indicates that the traffic stop is complete and clear."
+      }
+  ],
+  
+  "Felony Stops": [
+      {
+          "question": "What are two ways to initiate a felony stop?",
+          "options": {
+              "A": "Wait for backup and tail the vehicle OR pull over and hold occupants at gunpoint",
+              "B": "Immediately arrest the suspect",
+              "C": "Only tail the vehicle",
+              "D": "None of the above"
+          },
+          "answer": "A",
+          "explanation": "Felony stops are initiated either by waiting for backup and tailing the vehicle or by pulling the vehicle over and holding the occupants at gunpoint."
+      }
+  ],
+  
+  "Vehicle Pursuits Guidelines": [
+      {
+          "question": "What is the primary role of the Primary officer during a vehicle pursuit?",
+          "options": {
+              "A": "Handle radio communications",
+              "B": "Keep visual on the suspect's vehicle and provide updates",
+              "C": "Pursue any interfering vehicles",
+              "D": "Parallel the pursuit"
+          },
+          "answer": "B",
+          "explanation": "The Primary officer’s role is to keep visual on the suspect's vehicle and provide crucial updates."
+      },
+      {
+          "question": "What is the responsibility of the Secondary officer during a pursuit?",
+          "options": {
+              "A": "Handle all radio communications",
+              "B": "Chase the suspect on foot",
+              "C": "Act as a backup only",
+              "D": "Oversee the pursuit strategy"
+          },
+          "answer": "A",
+          "explanation": "The Secondary officer is responsible for handling radio communications unless there are two officers available."
+      }
+  ],
+  
+  "DNA Collection": [
+      {
+          "question": "When may DNA be collected from a suspect?",
+          "options": {
+              "A": "Only if the suspect consents",
+              "B": "With consent or if the suspect is charged with a violent crime",
+              "C": "At any time during detention",
+              "D": "Only after a trial"
+          },
+          "answer": "B",
+          "explanation": "DNA may be collected with the suspect's consent or if they are charged with a violent crime."
+      }
+  ],
+  
+  "Charges": [
+      {
+          "question": "What is required when making an arrest warrant?",
+          "options": {
+              "A": "Any officer can issue it immediately",
+              "B": "It must be approved by a Sergeant or higher with supporting evidence",
+              "C": "No supporting evidence is needed",
+              "D": "Only verbal approval is required"
+          },
+          "answer": "B",
+          "explanation": "An arrest warrant must be approved by a Sgt+ and supported by evidence."
+      },
+      {
+          "question": "What is the maximum time reduction allowed for a guilty plea without a lawyer?",
+          "options": {
+              "A": "10%",
+              "B": "20%",
+              "C": "40%",
+              "D": "No reduction"
+          },
+          "answer": "C",
+          "explanation": "Up to a 40% time reduction is allowed for a guilty plea when a lawyer is not requested or available."
+      }
+  ],
+  
+  "Police Report Guidelines": [
+      {
+          "question": "Within how many hours must police reports be completed after an incident?",
+          "options": {
+              "A": "12 hours",
+              "B": "24 hours",
+              "C": "48 hours",
+              "D": "72 hours"
+          },
+          "answer": "B",
+          "explanation": "Police reports must be completed within 24 hours of the incident."
+      },
+      {
+          "question": "Which of the following is NOT part of the police report guidelines?",
+          "options": {
+              "A": "Evidence photos",
+              "B": "Statements",
+              "C": "Seized items",
+              "D": "Suspect’s favorite food"
+          },
+          "answer": "D",
+          "explanation": "The suspect's favorite food is not included in police report guidelines."
+      }
+  ],
+  "10-Codes and Radio Signals": [
+  {
+      "question": "What does 10-3 mean in radio communication?",
+      "options": {
+          "A": "Affirmative",
+          "B": "Stop Transmitting",
+          "C": "Repeat Last Transmission",
+          "D": "Signal Good"
+      },
+      "answer": "B",
+      "explanation": "10-3 means 'Stop Transmitting' in radio codes."
+  },
+  {
+      "question": "What is the meaning of 10-7?",
+      "options": {
+          "A": "In Service, Available",
+          "B": "Out of service, Unavailable",
+          "C": "Disregard",
+          "D": "Routine Traffic Stop"
+      },
+      "answer": "B",
+      "explanation": "10-7 indicates that an officer is out of service or unavailable."
+  },
+  {
+      "question": "What does 10-8 signify?",
+      "options": {
+          "A": "Back in Service, Available",
+          "B": "Vehicle Pursuit",
+          "C": "AFK",
+          "D": "Scene is Clear"
+      },
+      "answer": "A",
+      "explanation": "10-8 means the officer is back in service and available."
+  },
+  {
+      "question": "What is the translation for 10-9?",
+      "options": {
+          "A": "Affirmative",
+          "B": "Check for Warrants",
+          "C": "Repeat Last Transmission",
+          "D": "Suspected DUI"
+      },
+      "answer": "C",
+      "explanation": "10-9 is used to request a repeat of the last transmission."
+  },
+  {
+      "question": "What does 10-11 refer to?",
+      "options": {
+          "A": "Fight in Progress",
+          "B": "Routine Traffic Stop",
+          "C": "Emergency Road Repair",
+          "D": "Test Signal"
+      },
+      "answer": "B",
+      "explanation": "10-11 refers to a Routine Traffic Stop."
+  },
+  {
+      "question": "What is the meaning of Code 4?",
+      "options": {
+          "A": "AFK",
+          "B": "Use Lights and Sirens",
+          "C": "Scene is Clear",
+          "D": "Investigating the Area"
+      },
+      "answer": "C",
+      "explanation": "Code 4 means the scene is clear, no further assistance needed."
+  },
+  {
+      "question": "What does Code 5 mean?",
+      "options": {
+          "A": "Felony Traffic Stop",
+          "B": "Convoy Escort",
+          "C": "Emergency",
+          "D": "Standard Traffic Stop"
+      },
+      "answer": "A",
+      "explanation": "Code 5 is used for a felony traffic stop."
+  },
+  {
+      "question": "What is indicated by 10-99 or SIGNAL 99?",
+      "options": {
+          "A": "Need backup urgently",
+          "B": "Emergency",
+          "C": "Officer Down",
+          "D": "Request for Tow"
+      },
+      "answer": "B",
+      "explanation": "SIGNAL 99 is the emergency code."
+  },
+  {
+      "question": "What does Code 7 mean?",
+      "options": {
+          "A": "Standard Traffic Stop",
+          "B": "AFK",
+          "C": "Use Lights Only",
+          "D": "Emergency Broadcast"
+      },
+      "answer": "A",
+      "explanation": "Code 7 means Standard Traffic Stop."
+  },
+  {
+      "question": "What does Code 8 refer to?",
+      "options": {
+          "A": "Investigating",
+          "B": "AFK",
+          "C": "Transporting Subject(s)",
+          "D": "Notify Coroner"
+      },
+      "answer": "B",
+      "explanation": "Code 8 indicates the officer is AFK."
+  }
+],
+"10-Codes and Radio Signals - Hard": [
+    {
+      "question": "What does 10-1 mean?",
+      "options": {
+        "A": "In Service, Available",
+        "B": "Fishing in unauthorized area",
+        "C": "Hospital Lockdown",
+        "D": "Frequency Change"
+      },
+      "answer": "D",
+      "explanation": "10-1 means Frequency Change."
+    },
+    {
+      "question": "What does 10-2 mean?",
+      "options": {
+        "A": "Vehicle Theft",
+        "B": "Hit and Run",
+        "C": "Signal Good",
+        "D": "Report to"
+      },
+      "answer": "C",
+      "explanation": "10-2 means Signal Good."
+    },
+    {
+      "question": "What does 10-3 mean?",
+      "options": {
+        "A": "Riot",
+        "B": "Vehicle Theft",
+        "C": "Stop Transmitting",
+        "D": "Busy Unless Urgent"
+      },
+      "answer": "C",
+      "explanation": "10-3 means Stop Transmitting."
+    },
+    {
+      "question": "What does 10-4 mean?",
+      "options": {
+        "A": "Affirmative",
+        "B": "Officer down / URGENT",
+        "C": "Stop Transmitting",
+        "D": "Robbery"
+      },
+      "answer": "A",
+      "explanation": "10-4 means Affirmative."
+    },
+    {
+      "question": "What does 10-5 mean?",
+      "options": {
+        "A": "Unregulated fishing activity",
+        "B": "Emergency",
+        "C": "Convoy/ Escort",
+        "D": "Relay Message"
+      },
+      "answer": "D",
+      "explanation": "10-5 means Relay Message."
+    },
+    {
+      "question": "What does 10-6 mean?",
+      "options": {
+        "A": "Suspected DUI",
+        "B": "Stopping Suspicious Vehicle",
+        "C": "Stop Transmitting",
+        "D": "Busy Unless Urgent"
+      },
+      "answer": "D",
+      "explanation": "10-6 means Busy Unless Urgent."
+    },
+    {
+      "question": "What does 10-7 mean?",
+      "options": {
+        "A": "High Risk Prison Transport",
+        "B": "Disregard",
+        "C": "Medic down / NOT URGENT",
+        "D": "Out of service, Unavailable"
+      },
+      "answer": "D",
+      "explanation": "10-7 means Out of service, Unavailable."
+    },
+    {
+      "question": "What does 10-8 mean?",
+      "options": {
+        "A": "Check for Warrants",
+        "B": "Intoxicated Driver",
+        "C": "Fishing in unauthorized area",
+        "D": "In Service, Available"
+      },
+      "answer": "D",
+      "explanation": "10-8 means In Service, Available."
+    },
+    {
+      "question": "What does 10-9 mean?",
+      "options": {
+        "A": "Ending Tour of Duty",
+        "B": "Transporting Subject(s)",
+        "C": "Drug Trafficking",
+        "D": "Repeat Last Transmission"
+      },
+      "answer": "D",
+      "explanation": "10-9 means Repeat Last Transmission."
+    },
+    {
+      "question": "What does 10-10 mean?",
+      "options": {
+        "A": "No Lights or Sirens",
+        "B": "Emergency",
+        "C": "Use Lights and No Sirens",
+        "D": "Fight in progress"
+      },
+      "answer": "D",
+      "explanation": "10-10 means Fight in progress."
+    },
+    {
+      "question": "What does 10-11 mean?",
+      "options": {
+        "A": "Investigate Suspicious Vehicle",
+        "B": "Domestic Problem",
+        "C": "ATM Robbery",
+        "D": "Routine Traffic Stop"
+      },
+      "answer": "D",
+      "explanation": "10-11 means Routine Traffic Stop."
+    },
+    {
+      "question": "What does 10-12 mean?",
+      "options": {
+        "A": "Need Additional Unit - URGENT",
+        "B": "Ride Along",
+        "C": "Wanted Person",
+        "D": "Affirmative"
+      },
+      "answer": "B",
+      "explanation": "10-12 means Ride Along."
+    },
+    {
+      "question": "What does 10-13A mean?",
+      "options": {
+        "A": "Officer down / URGENT",
+        "B": "Drug Trafficking",
+        "C": "Busy Unless Urgent",
+        "D": "Medic down / URGENT"
+      },
+      "answer": "A",
+      "explanation": "10-13A means Officer down / URGENT."
+    },
+    {
+      "question": "What does 10-13B mean?",
+      "options": {
+        "A": "Game Crash / Disconnected",
+        "B": "Officer down / NOT URGENT",
+        "C": "Disregard",
+        "D": "Repeat Last Transmission"
+      },
+      "answer": "B",
+      "explanation": "10-13B means Officer down / NOT URGENT."
+    },
+    {
+      "question": "What does 10-14A mean?",
+      "options": {
+        "A": "Medic down / URGENT",
+        "B": "Suspicious fishing activity",
+        "C": "Blockade",
+        "D": "Driver's License Information"
+      },
+      "answer": "A",
+      "explanation": "10-14A means Medic down / URGENT."
+    },
+    {
+      "question": "What does 10-14B mean?",
+      "options": {
+        "A": "Medic down / NOT URGENT",
+        "B": "Stop Transmitting",
+        "C": "Enroute",
+        "D": "Repeat Last Transmission"
+      },
+      "answer": "A",
+      "explanation": "10-14B means Medic down / NOT URGENT."
+    },
+    {
+      "question": "What does 10-15 mean?",
+      "options": {
+        "A": "Suspicious activity",
+        "B": "Fishing in unauthorized area",
+        "C": "Request for Tow",
+        "D": "Location"
+      },
+      "answer": "A",
+      "explanation": "10-15 means Suspicious activity."
+    },
+    {
+      "question": "What does 10-16 mean?",
+      "options": {
+        "A": "Fishing in unauthorized area",
+        "B": "Riot",
+        "C": "Ending Tour of Duty",
+        "D": "Domestic Problem"
+      },
+      "answer": "D",
+      "explanation": "10-16 means Domestic Problem."
+    },
+    {
+      "question": "What does 10-19 mean?",
+      "options": {
+        "A": "PRIORITY COMMS ONLY",
+        "B": "Return to ______",
+        "C": "Fight in progress",
+        "D": "Unregulated hunting activity"
+      },
+      "answer": "B",
+      "explanation": "10-19 means Return to ______."
+    },
+    {
+      "question": "What does 10-20 mean?",
+      "options": {
+        "A": "ATM Robbery",
+        "B": "Test Signal",
+        "C": "Relay Message",
+        "D": "Location"
+      },
+      "answer": "D",
+      "explanation": "10-20 means Location."
+    },
+    {
+      "question": "What does 10-22 mean?",
+      "options": {
+        "A": "Request for Fire / Ambulance",
+        "B": "Disregard",
+        "C": "Location",
+        "D": "Use Lights and No Sirens"
+      },
+      "answer": "B",
+      "explanation": "10-22 means Disregard."
+    },
+    {
+      "question": "What does 10-23 mean?",
+      "options": {
+        "A": "Report to",
+        "B": "On Scene",
+        "C": "No Lights or Sirens",
+        "D": "Jail Break"
+      },
+      "answer": "B",
+      "explanation": "10-23 means On Scene."
+    },
+    {
+      "question": "What does 10-25 mean?",
+      "options": {
+        "A": "Vehicle Theft",
+        "B": "Report to",
+        "C": "Use Lights and Sirens",
+        "D": "Intoxicated Driver"
+      },
+      "answer": "B",
+      "explanation": "10-25 means Report to."
+    },
+    {
+      "question": "What does 10-27 mean?",
+      "options": {
+        "A": "Bomb Threat",
+        "B": "Investigate Suspicious Vehicle",
+        "C": "Medic down / NOT URGENT",
+        "D": "Driver's License Information"
+      },
+      "answer": "D",
+      "explanation": "10-27 means Driver's License Information."
+    },
+    {
+      "question": "What does 10-28 mean?",
+      "options": {
+        "A": "Vehicle Registration",
+        "B": "Hospital Lockdown",
+        "C": "Assist Motorist",
+        "D": "Routine Traffic Stop"
+      },
+      "answer": "A",
+      "explanation": "10-28 means Vehicle Registration."
+    },
+    {
+      "question": "What does 10-29 mean?",
+      "options": {
+        "A": "Check for Warrants",
+        "B": "Jail Break",
+        "C": "Officer down / NOT URGENT",
+        "D": "Drag Racing"
+      },
+      "answer": "A",
+      "explanation": "10-29 means Check for Warrants."
+    },
+    {
+      "question": "What does 10-30 mean?",
+      "options": {
+        "A": "Wanted Person",
+        "B": "Game Crash / Disconnected",
+        "C": "Assist Motorist",
+        "D": "Fight in progress"
+      },
+      "answer": "A",
+      "explanation": "10-30 means Wanted Person."
+    },
+    {
+      "question": "What does 10-31A mean?",
+      "options": {
+        "A": "Unregulated fishing activity",
+        "B": "Suspect in Custody",
+        "C": "Stop Transmitting",
+        "D": "Suspicious activity"
+      },
+      "answer": "A",
+      "explanation": "10-31A means Unregulated fishing activity."
+    },
+    {
+      "question": "What does 10-31B mean?",
+      "options": {
+        "A": "Emergency Road Repair",
+        "B": "Scene is Clear",
+        "C": "Ending Tour of Duty",
+        "D": "Unregulated hunting activity"
+      },
+      "answer": "D",
+      "explanation": "10-31B means Unregulated hunting activity."
+    },
+    {
+      "question": "What does 10-32 mean?",
+      "options": {
+        "A": "ATM Robbery",
+        "B": "Suspect in Custody",
+        "C": "In Service, Available",
+        "D": "Officer down / URGENT"
+      },
+      "answer": "A",
+      "explanation": "10-32 means ATM Robbery."
+    },
+    {
+      "question": "What does 10-33 mean?",
+      "options": {
+        "A": "Drug Trafficking",
+        "B": "Breaking and Entering",
+        "C": "In Service, Available",
+        "D": "Suspicious hunting activity"
+      },
+      "answer": "B",
+      "explanation": "10-33 means Breaking and Entering."
+    },
+    {
+      "question": "What does 10-34 mean?",
+      "options": {
+        "A": "AFK",
+        "B": "Felony Traffic Stop",
+        "C": "Riot",
+        "D": "Bomb Threat"
+      },
+      "answer": "C",
+      "explanation": "10-34 means Riot."
+    },
+    {
+      "question": "What does 10-37 mean?",
+      "options": {
+        "A": "Livestock on public road/NOT Bishop's mom",
+        "B": "Investigate Suspicious Vehicle",
+        "C": "Fight",
+        "D": "Stop Transmitting"
+      },
+      "answer": "B",
+      "explanation": "10-37 means Investigate Suspicious Vehicle."
+    },
+    {
+      "question": "What does 10-38 mean?",
+      "options": {
+        "A": "Fight",
+        "B": "Notify Coroner",
+        "C": "Medic down / URGENT",
+        "D": "Stopping Suspicious Vehicle"
+      },
+      "answer": "D",
+      "explanation": "10-38 means Stopping Suspicious Vehicle."
+    },
+    {
+      "question": "What does 10-41 mean?",
+      "options": {
+        "A": "Fishing in unauthorized area",
+        "B": "Beginning Tour of Duty",
+        "C": "Use Lights and No Sirens",
+        "D": "Vehicle Registration"
+      },
+      "answer": "B",
+      "explanation": "10-41 means Beginning Tour of Duty."
+    },
+    {
+      "question": "What does 10-42 mean?",
+      "options": {
+        "A": "Felony Traffic Stop",
+        "B": "Use Lights and Sirens",
+        "C": "Hunting/Fishing with suspicious vehicle",
+        "D": "Ending Tour of Duty"
+      },
+      "answer": "D",
+      "explanation": "10-42 means Ending Tour of Duty."
+    },
+    {
+      "question": "What does 10-43 mean?",
+      "options": {
+        "A": "Hospital Lockdown",
+        "B": "Vehicle Registration",
+        "C": "Hit and Run",
+        "D": "Busy Unless Urgent"
+      },
+      "answer": "A",
+      "explanation": "10-43 means Hospital Lockdown."
+    },
+    {
+      "question": "What does 10-44 mean?",
+      "options": {
+        "A": "Pick Up Prisoner",
+        "B": "Brandishing",
+        "C": "Test Signal",
+        "D": "Enroute"
+      },
+      "answer": "B",
+      "explanation": "10-44 means Brandishing."
+    },
+    {
+      "question": "What does 10-45 mean?",
+      "options": {
+        "A": "Tresspassing",
+        "B": "Repeat Last Transmission",
+        "C": "Suspicious activity",
+        "D": "Fight in progress"
+      },
+      "answer": "A",
+      "explanation": "10-45 means Tresspassing."
+    },
+    {
+      "question": "What does 10-46 mean?",
+      "options": {
+        "A": "Tresspassing",
+        "B": "Assist Motorist",
+        "C": "Busy Unless Urgent",
+        "D": "Request for Tow"
+      },
+      "answer": "B",
+      "explanation": "10-46 means Assist Motorist."
+    },
+    {
+      "question": "What does 10-47 mean?",
+      "options": {
+        "A": "In Contact With _____",
+        "B": "AFK",
+        "C": "Scene is Clear",
+        "D": "Emergency Road Repair"
+      },
+      "answer": "D",
+      "explanation": "10-47 means Emergency Road Repair."
+    },
+    {
+      "question": "What does 10-48A mean?",
+      "options": {
+        "A": "Convoy/ Escort",
+        "B": "Bomb Threat",
+        "C": "Return to ______",
+        "D": "Fishing in unauthorized area"
+      },
+      "answer": "D",
+      "explanation": "10-48A means Fishing in unauthorized area."
+    },
+    {
+      "question": "What does 10-48B mean?",
+      "options": {
+        "A": "Wanted Person",
+        "B": "Hunting in unauthorized area",
+        "C": "Need Additional Unit - URGENT",
+        "D": "Breaking and Entering"
+      },
+      "answer": "B",
+      "explanation": "10-48B means Hunting in unauthorized area."
+    },
+    {
+      "question": "What does 10-49A mean?",
+      "options": {
+        "A": "Breaking and Entering",
+        "B": "Fight",
+        "C": "Tresspassing",
+        "D": "Suspicious fishing activity"
+      },
+      "answer": "D",
+      "explanation": "10-49A means Suspicious fishing activity."
+    },
+    {
+      "question": "What does 10-49B mean?",
+      "options": {
+        "A": "Suspicious hunting activity",
+        "B": "Suspicious activity",
+        "C": "Brandishing",
+        "D": "Pursuit of Vehicle / Pursuit on Foot"
+      },
+      "answer": "A",
+      "explanation": "10-49B means Suspicious hunting activity."
+    },
+    {
+      "question": "What does 10-50 mean?",
+      "options": {
+        "A": "Suspicious fishing activity",
+        "B": "Bomb Threat",
+        "C": "Vehicle Accident (Fatal / Non-Fatal/ Damage)",
+        "D": "Investigating the Area"
+      },
+      "answer": "C",
+      "explanation": "10-50 means Vehicle Accident (Fatal / Non-Fatal/ Damage)."
+    },
+    {
+      "question": "What does 10-51 mean?",
+      "options": {
+        "A": "Vehicle Accident (Fatal / Non-Fatal/ Damage)",
+        "B": "Emergency Road Repair",
+        "C": "Request for Tow",
+        "D": "Felony Traffic Stop"
+      },
+      "answer": "C",
+      "explanation": "10-51 means Request for Tow."
+    },
+    {
+      "question": "What does 10-52 mean?",
+      "options": {
+        "A": "Request for Fire / Ambulance",
+        "B": "Tresspassing",
+        "C": "Riot",
+        "D": "Fight"
+      },
+      "answer": "A",
+      "explanation": "10-52 means Request for Fire / Ambulance."
+    },
+    {
+      "question": "What does 10-53 mean?",
+      "options": {
+        "A": "Request for Fire / Ambulance",
+        "B": "Robbery",
+        "C": "Road Block at ________",
+        "D": "Emergency"
+      },
+      "answer": "C",
+      "explanation": "10-53 means Road Block at ________."
+    },
+    {
+      "question": "What does 10-54 mean?",
+      "options": {
+        "A": "Return to ______",
+        "B": "In Contact With _____",
+        "C": "Frequency Change",
+        "D": "Livestock on public road/NOT Bishop's mom"
+      },
+      "answer": "D",
+      "explanation": "10-54 means Livestock on public road/NOT Bishop's mom."
+    },
+    {
+      "question": "What does 10-55 mean?",
+      "options": {
+        "A": "Domestic Problem",
+        "B": "Tresspassing",
+        "C": "Suspected DUI",
+        "D": "Gunshots"
+      },
+      "answer": "C",
+      "explanation": "10-55 means Suspected DUI."
+    },
+    {
+      "question": "What does 10-56 mean?",
+      "options": {
+        "A": "Use Lights and Sirens",
+        "B": "Intoxicated Driver",
+        "C": "Riot",
+        "D": "Hit and Run"
+      },
+      "answer": "B",
+      "explanation": "10-56 means Intoxicated Driver."
+    },
+    {
+      "question": "What does 10-57 mean?",
+      "options": {
+        "A": "No Lights or Sirens",
+        "B": "Hit and Run",
+        "C": "Medic down / URGENT",
+        "D": "Driver's License Information"
+      },
+      "answer": "B",
+      "explanation": "10-57 means Hit and Run."
+    },
+    {
+      "question": "What does 10-58 mean?",
+      "options": {
+        "A": "Direct Traffic",
+        "B": "Vehicle Theft",
+        "C": "Frequency Change",
+        "D": "Fight in progress"
+      },
+      "answer": "A",
+      "explanation": "10-58 means Direct Traffic."
+    },
+    {
+      "question": "What does 10-59 mean?",
+      "options": {
+        "A": "Standard Traffic Stop",
+        "B": "Bomb Threat",
+        "C": "Gunshots",
+        "D": "Convoy/ Escort"
+      },
+      "answer": "D",
+      "explanation": "10-59 means Convoy/ Escort."
+    },
+    {
+      "question": "What does 10-60 mean?",
+      "options": {
+        "A": "Hit and Run",
+        "B": "Suspicious hunting activity",
+        "C": "Gunshots",
+        "D": "Unregulated hunting activity"
+      },
+      "answer": "C",
+      "explanation": "10-60 means Gunshots."
+    },
+    {
+      "question": "What does 10-61 mean?",
+      "options": {
+        "A": "Wanted Person",
+        "B": "ATM Robbery",
+        "C": "Fight",
+        "D": "Pick Up Prisoner"
+      },
+      "answer": "C",
+      "explanation": "10-61 means Fight."
+    },
+    {
+      "question": "What does 10-62 mean?",
+      "options": {
+        "A": "Standard Traffic Stop",
+        "B": "Intoxicated Driver",
+        "C": "Hunting/Fishing with suspicious vehicle",
+        "D": "Investigate Suspicious Vehicle"
+      },
+      "answer": "C",
+      "explanation": "10-62 means Hunting/Fishing with suspicious vehicle."
+    },
+    {
+      "question": "What does 10-69 mean?",
+      "options": {
+        "A": "Relay Message",
+        "B": "Game Crash / Disconnected",
+        "C": "Drug Trafficking",
+        "D": "Emergency"
+      },
+      "answer": "C",
+      "explanation": "10-69 means Drug Trafficking."
+    },
+    {
+      "question": "What does 10-75 mean?",
+      "options": {
+        "A": "AFK",
+        "B": "In Contact With _____",
+        "C": "Transporting Subject(s)",
+        "D": "Ride Along"
+      },
+      "answer": "B",
+      "explanation": "10-75 means In Contact With _____."
+    },
+    {
+      "question": "What does 10-76 mean?",
+      "options": {
+        "A": "Drag Racing",
+        "B": "Enroute",
+        "C": "Tresspassing",
+        "D": "Ride Along"
+      },
+      "answer": "B",
+      "explanation": "10-76 means Enroute."
+    },
+    {
+      "question": "What does 10-77 mean?",
+      "options": {
+        "A": "Emergency",
+        "B": "PRIORITY COMMS ONLY",
+        "C": "Emergency Road Repair",
+        "D": "Need additional unit - NOT Urgent"
+      },
+      "answer": "D",
+      "explanation": "10-77 means Need additional unit - NOT Urgent."
+    },
+    {
+      "question": "What does 10-78 mean?",
+      "options": {
+        "A": "Vehicle Accident (Fatal / Non-Fatal/ Damage)",
+        "B": "Pick Up Prisoner",
+        "C": "Need Additional Unit - URGENT",
+        "D": "Direct Traffic"
+      },
+      "answer": "C",
+      "explanation": "10-78 means Need Additional Unit - URGENT."
+    },
+    {
+      "question": "What does 10-79 mean?",
+      "options": {
+        "A": "Busy Unless Urgent",
+        "B": "Vehicle Registration",
+        "C": "Emergency",
+        "D": "Notify Coroner"
+      },
+      "answer": "D",
+      "explanation": "10-79 means Notify Coroner."
+    },
+    {
+      "question": "What does 10-80 mean?",
+      "options": {
+        "A": "Driver's License Information",
+        "B": "Breaking and Entering",
+        "C": "Suspicious hunting activity",
+        "D": "Pursuit of Vehicle / Pursuit on Foot"
+      },
+      "answer": "D",
+      "explanation": "10-80 means Pursuit of Vehicle / Pursuit on Foot."
+    },
+    {
+      "question": "What does 10-81 mean?",
+      "options": {
+        "A": "Vehicle Theft",
+        "B": "Need Additional Unit - URGENT",
+        "C": "Use Lights and No Sirens",
+        "D": "Request for Fire / Ambulance"
+      },
+      "answer": "A",
+      "explanation": "10-81 means Vehicle Theft."
+    },
+    {
+      "question": "What does 10-82 mean?",
+      "options": {
+        "A": "Test Signal",
+        "B": "Suspicious hunting activity",
+        "C": "Explosion",
+        "D": "Unregulated hunting activity"
+      },
+      "answer": "C",
+      "explanation": "10-82 means Explosion."
+    },
+    {
+      "question": "What does 10-86 mean?",
+      "options": {
+        "A": "Medic down / NOT URGENT",
+        "B": "Use Lights and Sirens",
+        "C": "Stop Transmitting",
+        "D": "High Risk Prison Transport"
+      },
+      "answer": "D",
+      "explanation": "10-86 means High Risk Prison Transport."
+    },
+    {
+      "question": "What does 10-89 mean?",
+      "options": {
+        "A": "Game Crash / Disconnected",
+        "B": "Routine Traffic Stop",
+        "C": "Bomb Threat",
+        "D": "Scene is Clear"
+      },
+      "answer": "C",
+      "explanation": "10-89 means Bomb Threat."
+    },
+    {
+      "question": "What does 10-90 mean?",
+      "options": {
+        "A": "Explosion",
+        "B": "Routine Traffic Stop",
+        "C": "Breaking and Entering",
+        "D": "Robbery"
+      },
+      "answer": "D",
+      "explanation": "10-90 means Robbery."
+    },
+    {
+      "question": "What does 10-91 mean?",
+      "options": {
+        "A": "Notify Coroner",
+        "B": "Stop Transmitting",
+        "C": "Relay Message",
+        "D": "Pick Up Prisoner"
+      },
+      "answer": "D",
+      "explanation": "10-91 means Pick Up Prisoner."
+    },
+    {
+      "question": "What does 10-93 mean?",
+      "options": {
+        "A": "Hit and Run",
+        "B": "Affirmative",
+        "C": "Ending Tour of Duty",
+        "D": "Blockade"
+      },
+      "answer": "D",
+      "explanation": "10-93 means Blockade."
+    },
+    {
+      "question": "What does 10-94 mean?",
+      "options": {
+        "A": "Drag Racing",
+        "B": "Hunting in unauthorized area",
+        "C": "Hunting/Fishing with suspicious vehicle",
+        "D": "Return to ______"
+      },
+      "answer": "A",
+      "explanation": "10-94 means Drag Racing."
+    },
+    {
+      "question": "What does 10-95 mean?",
+      "options": {
+        "A": "Suspect in Custody",
+        "B": "Standard Traffic Stop",
+        "C": "Suspected DUI",
+        "D": "Suspicious activity"
+      },
+      "answer": "A",
+      "explanation": "10-95 means Suspect in Custody."
+    },
+    {
+      "question": "What does 10-97 mean?",
+      "options": {
+        "A": "Jail Break",
+        "B": "Test Signal",
+        "C": "No Lights or Sirens",
+        "D": "Medic down / NOT URGENT"
+      },
+      "answer": "B",
+      "explanation": "10-97 means Test Signal."
+    },
+    {
+      "question": "What does 10-98 mean?",
+      "options": {
+        "A": "Hunting/Fishing with suspicious vehicle",
+        "B": "Jail Break",
+        "C": "Use Lights and Sirens",
+        "D": "Medic down / URGENT"
+      },
+      "answer": "B",
+      "explanation": "10-98 means Jail Break."
+    },
+    {
+      "question": "What does CODE 0 mean?",
+      "options": {
+        "A": "Game Crash / Disconnected",
+        "B": "Use Lights and No Sirens",
+        "C": "Gunshots",
+        "D": "Pick Up Prisoner"
+      },
+      "answer": "A",
+      "explanation": "CODE 0 means Game Crash / Disconnected."
+    },
+    {
+      "question": "What does CODE 1 mean?",
+      "options": {
+        "A": "Driver's License Information",
+        "B": "Unregulated hunting activity",
+        "C": "No Lights or Sirens",
+        "D": "Request for Tow"
+      },
+      "answer": "C",
+      "explanation": "CODE 1 means No Lights or Sirens."
+    },
+    {
+      "question": "What does CODE 2 mean?",
+      "options": {
+        "A": "In Service, Available",
+        "B": "Busy Unless Urgent",
+        "C": "Stopping Suspicious Vehicle",
+        "D": "Use Lights and No Sirens"
+      },
+      "answer": "D",
+      "explanation": "CODE 2 means Use Lights and No Sirens."
+    },
+    {
+      "question": "What does CODE 3 mean?",
+      "options": {
+        "A": "Stopping Suspicious Vehicle",
+        "B": "Gunshots",
+        "C": "Assist Motorist",
+        "D": "Use Lights and Sirens"
+      },
+      "answer": "D",
+      "explanation": "CODE 3 means Use Lights and Sirens."
+    },
+    {
+      "question": "What does CODE 4 mean?",
+      "options": {
+        "A": "Notify Coroner",
+        "B": "Use Lights and No Sirens",
+        "C": "ATM Robbery",
+        "D": "Scene is Clear"
+      },
+      "answer": "D",
+      "explanation": "CODE 4 means Scene is Clear."
+    },
+    {
+      "question": "What does CODE 5 mean?",
+      "options": {
+        "A": "Felony Traffic Stop",
+        "B": "Request for Tow",
+        "C": "Fight in progress",
+        "D": "Report to"
+      },
+      "answer": "A",
+      "explanation": "CODE 5 means Felony Traffic Stop."
+    },
+    {
+      "question": "What does CODE 6 mean?",
+      "options": {
+        "A": "Use Lights and No Sirens",
+        "B": "Officer down / URGENT",
+        "C": "Intoxicated Driver",
+        "D": "Investigating the Area"
+      },
+      "answer": "D",
+      "explanation": "CODE 6 means Investigating the Area."
+    },
+    {
+      "question": "What does CODE 7 mean?",
+      "options": {
+        "A": "Blockade",
+        "B": "Scene is Clear",
+        "C": "Standard Traffic Stop",
+        "D": "Notify Coroner"
+      },
+      "answer": "C",
+      "explanation": "CODE 7 means Standard Traffic Stop."
+    },
+    {
+      "question": "What does CODE 8 mean?",
+      "options": {
+        "A": "AFK",
+        "B": "Fight",
+        "C": "Vehicle Registration",
+        "D": "Suspicious hunting activity"
+      },
+      "answer": "A",
+      "explanation": "CODE 8 means AFK."
+    },
+    {
+      "question": "What does CODE 10 mean?",
+      "options": {
+        "A": "Stop Transmitting",
+        "B": "Fight in progress",
+        "C": "Standard Traffic Stop",
+        "D": "Transporting Subject(s)"
+      },
+      "answer": "D",
+      "explanation": "CODE 10 means Transporting Subject(s)."
+    },
+    {
+      "question": "What does SIGNAL 99 mean?",
+      "options": {
+        "A": "Ending Tour of Duty",
+        "B": "Emergency",
+        "C": "Livestock on public road/NOT Bishop's mom",
+        "D": "On Scene"
+      },
+      "answer": "B",
+      "explanation": "SIGNAL 99 means Emergency."
+    },
+    {
+      "question": "What does SIGNAL 100 mean?",
+      "options": {
+        "A": "PRIORITY COMMS ONLY",
+        "B": "Driver's License Information",
+        "C": "Blockade",
+        "D": "In Service, Available"
+      },
+      "answer": "A",
+      "explanation": "SIGNAL 100 means PRIORITY COMMS ONLY."
+    }
+  ]
+
+}
