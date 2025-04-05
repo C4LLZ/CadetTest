@@ -74,30 +74,108 @@
       }
   ],
   
-  "Case Laws": [
-      {
-          "question": "Which case permits the use of deadly force on a fleeing suspect if they pose a threat?",
-          "options": {
-              "A": "Terry v. Ohio",
-              "B": "Miranda v. Arizona",
-              "C": "Tennessee v. Garner",
-              "D": "Brady v. Maryland"
-          },
-          "answer": "C",
-          "explanation": "Tennessee v. Garner allows the use of deadly force on a fleeing suspect if you believe they may kill or injure officers or others."
-      },
-      {
-          "question": "Terry v. Ohio allows officers to stop and frisk a suspect based on what standard?",
-          "options": {
-              "A": "Probable cause",
-              "B": "Reasonable suspicion",
-              "C": "After an arrest warrant",
-              "D": "Only when the suspect is armed"
-          },
-          "answer": "B",
-          "explanation": "Terry v. Ohio allows officers to stop and frisk a suspect based on reasonable suspicion."
-      }
-  ],
+    "Case Laws": [
+    {
+        "question": "An officer sees a suspect sprinting away from a robbery scene. The suspect appears to be reaching for something in their waistband while running toward a public park full of people. Can the officer use deadly force?",
+        "options": {
+        "A": "No, fleeing suspects cannot be shot under any circumstances.",
+        "B": "Yes, if the officer has probable cause the suspect may harm others.",
+        "C": "Only if the suspect has already fired a weapon.",
+        "D": "Only after the suspect enters private property."
+        },
+        "answer": "B",
+        "explanation": "Under Tennessee v. Garner, deadly force is permitted if the suspect poses a significant threat of death or serious injury."
+    },
+    {
+        "question": "An officer notices someone repeatedly pacing in front of a store at night and appearing to watch people inside. The officer approaches and does a quick pat-down, finding a concealed weapon. What legal standard allows this?",
+        "options": {
+        "A": "Probable cause from prior warrants",
+        "B": "Reasonable suspicion of armed danger",
+        "C": "Consent by the individual",
+        "D": "Community caretaking function"
+        },
+        "answer": "B",
+        "explanation": "Terry v. Ohio allows a stop-and-frisk based on reasonable suspicion that a person is armed and dangerous."
+    },
+    {
+        "question": "During a routine traffic stop, the officer orders the driver and passenger out of the vehicle. The officer then frisks both for weapons. The driver complains this violated his rights. Which case justifies the officer's actions?",
+        "options": {
+        "A": "Wyoming v. Houghton",
+        "B": "Pennsylvania v. Mimms",
+        "C": "Terry v. Ohio",
+        "D": "Carroll v. United States"
+        },
+        "answer": "B",
+        "explanation": "Pennsylvania v. Mimms allows officers to order people out of a vehicle and frisk them if they reasonably suspect danger."
+    },
+    {
+        "question": "During a traffic stop, an officer sees a large duffel bag on the backseat. The driver appears nervous and admits he just came from a known drug house. Believing the bag may contain drugs, the officer searches the car without a warrant. What case justifies this search?",
+        "options": {
+          "A": "Brady v. Maryland",
+          "B": "Carroll v. United States",
+          "C": "Terry v. Ohio",
+          "D": "Wyoming v. Houghton"
+        },
+        "answer": "B",
+        "explanation": "Carroll v. United States permits warrantless vehicle searches if there's probable cause to believe the vehicle contains contraband, due to its mobility and risk of evidence disappearing."
+    },      
+    {
+        "question": "An officer searches a passenger’s backpack in a car during a traffic stop, believing the car contains drugs. The passenger claims their belongings can’t be searched. Which case is relevant?",
+        "options": {
+        "A": "Tennessee v. Garner",
+        "B": "Wyoming v. Houghton",
+        "C": "Terry v. Ohio",
+        "D": "De-Luca v. State of San Andreas"
+        },
+        "answer": "B",
+        "explanation": "Wyoming v. Houghton allows searching passengers’ belongings if there's probable cause related to the vehicle."
+    },
+    {
+        "question": "A suspect is arrested and questioned about a burglary but was never informed of their rights. They confess during questioning. Can that statement be used in court?",
+        "options": {
+        "A": "Yes, because it's after arrest",
+        "B": "No, because of Miranda v. Arizona",
+        "C": "Yes, because the confession was voluntary",
+        "D": "No, due to the exclusionary rule from Brady"
+        },
+        "answer": "B",
+        "explanation": "Miranda v. Arizona requires suspects be informed of their rights before custodial interrogation for their statements to be admissible."
+    },
+    {
+        "question": "Police arrest a man for assault with a deadly weapon. As part of the booking process, they take a DNA swab and enter it into a national database. Is this allowed?",
+        "options": {
+        "A": "No, collecting DNA without a warrant is unconstitutional",
+        "B": "Yes, under Maryland v. King",
+        "C": "Only with the suspect’s consent",
+        "D": "Only if the suspect has a prior felony"
+        },
+        "answer": "B",
+        "explanation": "Maryland v. King allows DNA collection from individuals charged with violent crimes as part of standard booking."
+    },
+    {
+        "question": "A man is convicted of battery. Two months later, the victim dies from those injuries. Prosecutors want to now charge the man with murder. Can they?",
+        "options": {
+        "A": "No, it’s double jeopardy",
+        "B": "Yes, because of De-Luca v. State of San Andreas",
+        "C": "Only if the family requests it",
+        "D": "Only with federal approval"
+        },
+        "answer": "B",
+        "explanation": "De-Luca v. State of San Andreas permits new charges if a victim dies after an earlier conviction, as it involves a new consequence."
+    },
+    {
+        "question": "During trial, it is discovered the prosecution withheld video footage that might have cleared the defendant. What case does this violate?",
+        "options": {
+        "A": "Terry v. Ohio",
+        "B": "Carroll v. United States",
+        "C": "Brady v. Maryland",
+        "D": "Miranda v. Arizona"
+        },
+        "answer": "C",
+        "explanation": "Brady v. Maryland requires prosecutors to disclose evidence that may help the defense; failure to do so violates due process."
+    }
+    ],
+
   
   "Amendments": [
       {
