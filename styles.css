@@ -18,6 +18,10 @@ body {
     display: block;
     margin: 8px 0;
   }
+  
+  .mode-choice{
+    margin-bottom: 100px;
+  }
   .question {
     margin: 20px 0;
   }
