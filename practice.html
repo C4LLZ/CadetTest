@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="quiz_icon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cadet Quiz">
+  <title>Practice Sheet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #2b2d31;
+      color: white;
+    }
+    iframe {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+    .back-btn {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #2b2d31;
+      border-top: 1px solid #444;
+      padding: 10px;
+      z-index: 100;
+      text-align: center;
+    }
+    .btn {
+      background-color: #3ba55c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 12px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .btn {
+        width: 100%;
+        font-size: 18px;
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe src="cadet.html"></iframe>
+  <div class="back-btn">
+    <button class="btn" onclick="window.location.href='index.html'">Back to Quiz</button>
+  </div>
+</body>
+</html>

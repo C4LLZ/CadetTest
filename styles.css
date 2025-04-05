@@ -18,9 +18,9 @@ body {
     display: block;
     margin: 8px 0;
   }
-  
+
   .mode-choice{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
   .question {
     margin: 20px 0;
@@ -35,7 +35,7 @@ body {
     color: white;
     border: none;
     border-radius: 6px;
-    padding: 12px 20px;
+    padding: 12px 10px;
     font-weight: bold;
     cursor: pointer;
     margin: 6px 4px 0 0;
