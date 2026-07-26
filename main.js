@@ -33,6 +33,10 @@ function selectAllSections() {
   document.querySelectorAll('.section-list input').forEach(cb => cb.checked = true);
 }
 
+function deselectAllSections() {
+  document.querySelectorAll('.section-list input').forEach(cb => cb.checked = false);
+}
+
 function getSelectedMode() {
   const checked = document.querySelector('input[name="codeMode"]:checked');
   return checked ? checked.value : 'easy';

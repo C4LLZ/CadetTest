@@ -441,6 +441,97 @@
       }
   ],
 
+  "Unit & Certification Response Limits": [
+      {
+          "question": "What is the general maximum number of officers that can respond to any situation, barring listed exceptions?",
+          "options": {
+              "A": "5",
+              "B": "10",
+              "C": "15",
+              "D": "Unlimited"
+          },
+          "answer": "B",
+          "explanation": "The maximum number of officers that can respond to any situation is 10, unless the call escalates into a shootout or is otherwise listed as an exception."
+      },
+      {
+          "question": "How many HEAT/Interceptor units are allowed to respond to a Vehicle Boost Class X?",
+          "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "Unlimited"
+          },
+          "answer": "B",
+          "explanation": "A Vehicle Boost Class X allows a maximum of 2 HEAT units to respond."
+      },
+      {
+          "question": "How many HEAT/Interceptor units are allowed to respond to a Vehicle Boost Class S?",
+          "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+          },
+          "answer": "A",
+          "explanation": "A Vehicle Boost Class S allows a maximum of 1 HEAT unit to respond, one fewer than Class X."
+      },
+      {
+          "question": "Are HEAT/Interceptor or MOTO units allowed to respond to a Vehicle Boost Class D, C, B, or A?",
+          "options": {
+              "A": "Yes, unlimited",
+              "B": "No (MOTO only if it's a bike boost)",
+              "C": "Only with Command approval",
+              "D": "Only 1 of each"
+          },
+          "answer": "B",
+          "explanation": "For Boost Classes D, C, B, or A, Interceptor units are not allowed, and MOTO is only allowed if the boost vehicle is a motorbike."
+      },
+      {
+          "question": "What is the maximum number of units (vehicles) allowed to respond to a Gruppe Sechs, Pacific Standard, Paleto, or Vangelico's call?",
+          "options": {
+              "A": "3",
+              "B": "4",
+              "C": "5",
+              "D": "6"
+          },
+          "answer": "C",
+          "explanation": "Gruppe Sechs, Pacific Standard, Paleto, and Vangelico's each allow a maximum of 5 units, with Air-1, Moto, and Interceptor all permitted."
+      },
+      {
+          "question": "What is the maximum number of Shields allowed on a Bank Truck response?",
+          "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "Unlimited"
+          },
+          "answer": "B",
+          "explanation": "A Bank Truck response allows up to 10 officers total, with a maximum of 2 Shields."
+      },
+      {
+          "question": "What is the maximum officer count for a Prison Transport (10-86)?",
+          "options": {
+              "A": "10",
+              "B": "12",
+              "C": "15",
+              "D": "Unlimited"
+          },
+          "answer": "C",
+          "explanation": "A Prison Transport (10-86) allows up to 15 officers, which includes DOC with lethals."
+      },
+      {
+          "question": "Is there a unit or officer cap for a 10-13A that is NOT from a scene or cleanup call?",
+          "options": {
+              "A": "Capped at 5 units",
+              "B": "Capped at 10 officers",
+              "C": "No cap, unlimited units and officers",
+              "D": "Only Air-1 may respond"
+          },
+          "answer": "C",
+          "explanation": "A 10-13A not stemming from an active scene or cleanup call has unlimited units and officers, along with a Shootout With Officers (OIS) call."
+      }
+  ],
+
   "Patrol Vehicles": [
       {
           "question": "What is the maximum number of officers a Patrol Unit can have, including ride-alongs (not counting K9s)?",
