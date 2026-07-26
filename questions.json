@@ -440,6 +440,486 @@
           "explanation": "The suspect's favorite food is not included in police report guidelines."
       }
   ],
+
+  "Patrol Vehicles": [
+      {
+          "question": "What is the maximum number of officers a Patrol Unit can have, including ride-alongs (not counting K9s)?",
+          "options": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "Unlimited"
+          },
+          "answer": "B",
+          "explanation": "Patrol Units can only have a maximum of 3 Officers (including ride-alongs, not including K9s) unless an emergency situation calls for it."
+      },
+      {
+          "question": "What is the vehicle rack meant to carry?",
+          "options": {
+              "A": "Repair kits and fuel cans",
+              "B": "Weapons and associated ammo only",
+              "C": "Spike strips",
+              "D": "Evidence"
+          },
+          "answer": "B",
+          "explanation": "The rack is only for weapons and associated ammo, nothing else."
+      },
+      {
+          "question": "What condition must a Fleet Vehicle meet before being returned to the garage?",
+          "options": {
+              "A": "Internals above 7 and Body/Gas at 100%",
+              "B": "Just a full tank of gas",
+              "C": "Washed exterior only",
+              "D": "No requirement"
+          },
+          "answer": "A",
+          "explanation": "Fleet Vehicles should be returned with Internals above 7 and Body/Gas at 100%; certs can be removed for leaving vehicles in disrepair."
+      }
+  ],
+
+  "Impounds & Striking": [
+      {
+          "question": "When is a registered vehicle subject to state impound?",
+          "options": {
+              "A": "Only for capital offenses",
+              "B": "Any time it's used to commit a misdemeanor or felony-level crime",
+              "C": "Only if it's left running",
+              "D": "Never, only strikes apply"
+          },
+          "answer": "B",
+          "explanation": "Any time a registered vehicle is used to commit a misdemeanor or felony-level crime it is subject to state impound, with a narrow exception for vehicles reported stolen before the crime."
+      },
+      {
+          "question": "What must be verified before a vehicle can be Vin Crushed?",
+          "options": {
+              "A": "That it has been flagged as stolen when checking its VIN",
+              "B": "That the owner consents",
+              "C": "That it is any felony vehicle",
+              "D": "Nothing, any corporal can approve it instantly"
+          },
+          "answer": "A",
+          "explanation": "Vin crushing is reserved for vehicles flagged as stolen via VIN check (or seized under warrant), and requires requesting a Corporal+ supervisor first."
+      },
+      {
+          "question": "What happens once a vehicle has already received three strikes and is about to receive a fourth?",
+          "options": {
+              "A": "It is returned to its owner",
+              "B": "It must be crushed by SACOR",
+              "C": "It receives a warning only",
+              "D": "Nothing changes"
+          },
+          "answer": "B",
+          "explanation": "If a vehicle has already received three strikes and is about to get a fourth, it must be crushed by SACOR."
+      }
+  ],
+
+  "Ride-Along Program": [
+      {
+          "question": "What is required for a Law Enforcement Officer to take part in the Ride-Along Program?",
+          "options": {
+              "A": "Any rank may participate",
+              "B": "Corporal or higher, OR a Full FTO certification",
+              "C": "Sergeant or higher only",
+              "D": "Command approval every time regardless of rank"
+          },
+          "answer": "B",
+          "explanation": "Officers must have reached the rank of Corporal or higher, or hold a Full FTO certification, to take part in a ride-along."
+      },
+      {
+          "question": "What is a Ride-Along participant strictly prohibited from carrying?",
+          "options": {
+              "A": "A radio",
+              "B": "A taser they purchased themselves",
+              "C": "A firearm, for any reason",
+              "D": "Heavy plate"
+          },
+          "answer": "C",
+          "explanation": "Participants are not to carry a firearm for any reason; they may only carry a self-purchased taser."
+      },
+      {
+          "question": "On which shift are Ride-Alongs not conducted without special approval?",
+          "options": {
+              "A": "First Shift",
+              "B": "Second Shift",
+              "C": "Third Shift",
+              "D": "Any shift is fine without approval"
+          },
+          "answer": "B",
+          "explanation": "Ride-Alongs are not to be conducted on Second Shift without special circumstance or approval from SASP Command."
+      }
+  ],
+
+  "Evidence Collection": [
+      {
+          "question": "What type of evidence should officers prioritize collecting first at a shootout scene?",
+          "options": {
+              "A": "Vehicle fragments",
+              "B": "Blood samples",
+              "C": "Bullet projectiles",
+              "D": "Vehicle projectiles"
+          },
+          "answer": "B",
+          "explanation": "Blood samples are the quickest link of a suspect to a scene and should always be the first priority."
+      },
+      {
+          "question": "What does a blue chevron denote on an evidence scene?",
+          "options": {
+              "A": "A casing",
+              "B": "A blood sample",
+              "C": "A vehicle fragment",
+              "D": "A projectile"
+          },
+          "answer": "A",
+          "explanation": "A casing is denoted by a blue chevron; blood samples are a red chevron."
+      },
+      {
+          "question": "How should blood evidence be documented in a report?",
+          "options": {
+              "A": "A location pin only",
+              "B": "Name, CID, and quantity of blood",
+              "C": "No documentation needed",
+              "D": "Suspect's nickname only"
+          },
+          "answer": "B",
+          "explanation": "Blood should be noted as a name, CID, and quantity, e.g. 'John Doe - 123456 (x5)'."
+      }
+  ],
+
+  "MOTO / MEAT (Bike Unit)": [
+      {
+          "question": "How many other 10-8 caged units must be present before a bike unit can mobilize?",
+          "options": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "5"
+          },
+          "answer": "C",
+          "explanation": "For a bike unit to mobilize, there must be at least four other 10-8 caged units."
+      },
+      {
+          "question": "What position should a bike unit NEVER take in a pursuit calling for PITs?",
+          "options": {
+              "A": "Primary",
+              "B": "Secondary",
+              "C": "Tertiary",
+              "D": "Parallel"
+          },
+          "answer": "B",
+          "explanation": "The bike unit should never be secondary due to safety reasons."
+      },
+      {
+          "question": "What is the maximum number of simultaneous bikes allowed on patrol?",
+          "options": {
+              "A": "4",
+              "B": "6",
+              "C": "8",
+              "D": "10"
+          },
+          "answer": "C",
+          "explanation": "The maximum number of simultaneous bikes on patrol is 8 (4 full units)."
+      }
+  ],
+
+  "HEAT": [
+      {
+          "question": "What is the minimum rank required to enroll in HEAT Certification training?",
+          "options": {
+              "A": "Officer/Deputy",
+              "B": "Senior Officer or Senior Deputy",
+              "C": "Corporal",
+              "D": "Sergeant"
+          },
+          "answer": "B",
+          "explanation": "Anyone interested in HEAT Certification must be at least Senior Officer or Senior Deputy, active on the roster, with no active strikes."
+      },
+      {
+          "question": "How many cage units must be on patrol for an officer to also patrol in a HEAT/MEAT unit?",
+          "options": {
+              "A": "3",
+              "B": "4",
+              "C": "5",
+              "D": "10"
+          },
+          "answer": "C",
+          "explanation": "There must be 5 cage units on patrol for an officer to patrol in a HEAT/MEAT unit."
+      },
+      {
+          "question": "Is it allowed to spike strip a street race while it is still active?",
+          "options": {
+              "A": "Yes, at any time",
+              "B": "No, strictly prohibited until the race is over and it's approved by scene command",
+              "C": "Only for X-Class vehicles",
+              "D": "Only with Command approval mid-race"
+          },
+          "answer": "B",
+          "explanation": "It is strictly prohibited to spike strip a street race while it is still active; once over and a car is alone it may be spiked if approved by scene command."
+      }
+  ],
+
+  "Air-1": [
+      {
+          "question": "How many officers should typically be inside Air-1 during a combat situation?",
+          "options": {
+              "A": "No more than 2",
+              "B": "No more than 4",
+              "C": "Up to 8",
+              "D": "Unlimited"
+          },
+          "answer": "B",
+          "explanation": "If Air-1 is involved in any combat situation, there is to be no more than 4 officers inside; all 8 seats should only be filled when transporting incapacitated individuals for medical care."
+      },
+      {
+          "question": "What must happen before Air-1 may engage a non-compliant aircraft with pistols?",
+          "options": {
+              "A": "Nothing, engage immediately",
+              "B": "Meaningful attempts to contact the pilot, with the aircraft deemed Code Amber for non-compliance",
+              "C": "Only if the aircraft fires first",
+              "D": "It's never allowed"
+          },
+          "answer": "B",
+          "explanation": "Air-1 must attempt contact via radio and megaphone and give a final warning before the aircraft is deemed Code Amber, after which engagement with pistols is permitted if it remains non-compliant."
+      },
+      {
+          "question": "Does Air-1 count as a 'unit' on a scene for officer/unit counting purposes?",
+          "options": {
+              "A": "Yes, it counts as one unit",
+              "B": "No, but the officers inside still count toward the officer count",
+              "C": "Only during pursuits",
+              "D": "Only during hostage calls"
+          },
+          "answer": "B",
+          "explanation": "Air-1 does not count as a unit on a scene, however the officers within the aircraft do count towards the officer count."
+      }
+  ],
+
+  "K9": [
+      {
+          "question": "Which command should a handler use to have a K9 search for blood, bullets, or items?",
+          "options": {
+              "A": "Fetch!",
+              "B": "Check!",
+              "C": "Search!",
+              "D": "Guard!"
+          },
+          "answer": "C",
+          "explanation": "'Search!' directs a K9 to search for civilians, items, blood, or bullets."
+      },
+      {
+          "question": "Can K9s swim?",
+          "options": {
+              "A": "Yes, they swim well",
+              "B": "No, not even doggy paddle",
+              "C": "Only in shallow water",
+              "D": "Only with a life vest"
+          },
+          "answer": "B",
+          "explanation": "K9s are unable to swim, not even doggy paddle."
+      },
+      {
+          "question": "Are K9 units permitted to respond to Bank Truck or Air Drop calls?",
+          "options": {
+              "A": "Yes, always",
+              "B": "No, K9s are not permitted at these calls",
+              "C": "Only with Command approval",
+              "D": "Only if the handler is Sergeant+"
+          },
+          "answer": "B",
+          "explanation": "K9s are not permitted to go to Bank Truck or Air Drop calls."
+      }
+  ],
+
+  "Tac Firearms & Weapons": [
+      {
+          "question": "Who is allowed to carry one Class 3 weapon during patrol without needing to be cleared by a Sergeant?",
+          "options": {
+              "A": "Any Officer",
+              "B": "Sergeant+",
+              "C": "Lieutenant+",
+              "D": "Cadet+"
+          },
+          "answer": "C",
+          "explanation": "Lieutenant+ (Lt.) is allowed to carry one Class 3 weapon during patrol."
+      },
+      {
+          "question": "What must happen before personnel below Lt. can unrack a TAC weapon?",
+          "options": {
+              "A": "Nothing, they may unrack at will",
+              "B": "They must be cleared by a Sergeant+",
+              "C": "They must be cleared by Command only",
+              "D": "It happens automatically after their first strike"
+          },
+          "answer": "B",
+          "explanation": "Personnel below the rank of Lt. are required to keep their weapon racked until cleared by a Sergeant+ to unrack it."
+      },
+      {
+          "question": "When is TAC weaponry authorized to be unracked?",
+          "options": {
+              "A": "Any time there's a felony in progress",
+              "B": "Only with absolute confirmation that suspects are using automatic weapons",
+              "C": "At any officer's personal discretion",
+              "D": "Never on duty"
+          },
+          "answer": "B",
+          "explanation": "TAC Weaponry must only be used when there is absolute confirmation suspects are using automatic weapons, and only to match force."
+      }
+  ],
+
+  "SRT": [
+      {
+          "question": "Which of the following is a mandatory disqualifier from joining the Special Response Team?",
+          "options": {
+              "A": "Being below the rank of Corporal",
+              "B": "A prior felony or firearms conviction",
+              "C": "Having one active strike",
+              "D": "Being a Cadet"
+          },
+          "answer": "B",
+          "explanation": "Members must have never been convicted of a felony or a firearms conviction; both are mandatory disqualifiers."
+      },
+      {
+          "question": "What must an SRT member do while undercover on an operation?",
+          "options": {
+              "A": "Check in with SRT hourly",
+              "B": "Go completely dark and not contact other SRT/law enforcement members until the sting is completed",
+              "C": "Wear a body camera at all times",
+              "D": "Get City Council approval first"
+          },
+          "answer": "B",
+          "explanation": "During undercover work, the SRT member is to go completely dark and not speak to another member of the SRT or law enforcement until the sting is completed."
+      },
+      {
+          "question": "If a gang refuses to hand over a suspect and points firearms at PD, how is this addressed?",
+          "options": {
+              "A": "Officers retreat and wait for backup only",
+              "B": "It is met with deadly force",
+              "C": "Only verbal warnings are given",
+              "D": "SRT stands down entirely"
+          },
+          "answer": "B",
+          "explanation": "If the gang refuses to hand over the suspect, any violence towards PD (such as firearms pointed) will be met with deadly force."
+      }
+  ],
+
+  "PSD Handbook": [
+      {
+          "question": "Who can overturn a Professional Standards Division misconduct decision without a vote?",
+          "options": {
+              "A": "Any Sergeant",
+              "B": "The Commissioner, Warden, Chief of Police, or Sheriff",
+              "C": "Any PSD Investigator",
+              "D": "No one can overturn it"
+          },
+          "answer": "B",
+          "explanation": "Only the Commissioner, Warden, Chief of Police, or Sheriff can overturn a PSD decision without a vote; only the State Attorney's Office can drop criminal charges."
+      },
+      {
+          "question": "What disposition applies when the alleged incident occurred but was lawful and per SOP?",
+          "options": {
+              "A": "Unfounded",
+              "B": "Not Sustained",
+              "C": "Exonerated",
+              "D": "Sustained"
+          },
+          "answer": "C",
+          "explanation": "'Exonerated' means the alleged incident occurred but was lawful and in accordance with SASP Code of Conduct and SOPs."
+      },
+      {
+          "question": "A complaint alleging use of excessive force falls under which PSD Complaint Type?",
+          "options": {
+              "A": "Type I",
+              "B": "Type II",
+              "C": "Type III",
+              "D": "Type IV"
+          },
+          "answer": "B",
+          "explanation": "Type II covers Legal Violations, including the use or threatened use of excessive force against a person."
+      }
+  ],
+
+  "Fishing & Hunting Laws": [
+      {
+          "question": "What is the fee for a fishing license?",
+          "options": {
+              "A": "$500",
+              "B": "$1,000",
+              "C": "$2,500",
+              "D": "$5,000"
+          },
+          "answer": "C",
+          "explanation": "A fishing license costs $2,500."
+      },
+      {
+          "question": "How many fish may a person legally possess per trip before it becomes overfishing?",
+          "options": {
+              "A": "50",
+              "B": "75",
+              "C": "100",
+              "D": "150"
+          },
+          "answer": "C",
+          "explanation": "You may possess up to 100 fish per trip; exceeding this is Overfishing (P.C. 10007)."
+      },
+      {
+          "question": "What must you do if you catch a protected or endangered fish species?",
+          "options": {
+              "A": "Keep it for evidence",
+              "B": "Immediately release it back into the water",
+              "C": "Report it, then destroy it",
+              "D": "Sell it to a licensed vendor"
+          },
+          "answer": "B",
+          "explanation": "If a protected/endangered species (EPS) is caught, the required protocol is to immediately release it back into the water; possessing one is Poaching (P.C. 10008)."
+      }
+  ],
+
+  "Firearm Protocol & Licensing": [
+      {
+          "question": "Under Castle Law, can you shoot someone stealing your vehicle even if your life is not in danger?",
+          "options": {
+              "A": "Yes, always",
+              "B": "No",
+              "C": "Only if it is a felony-registered vehicle",
+              "D": "Only with a witness present"
+          },
+          "answer": "B",
+          "explanation": "You cannot shoot someone stealing your property, even a vehicle, if your life is not in danger."
+      },
+      {
+          "question": "Do you have a duty to retreat before resorting to your firearm?",
+          "options": {
+              "A": "Yes",
+              "B": "No",
+              "C": "Only for misdemeanors",
+              "D": "Only while off-duty"
+          },
+          "answer": "A",
+          "explanation": "The right of self-defense does not arise until you've done everything in your power to prevent its necessity (Duty to Retreat)."
+      },
+      {
+          "question": "In the L.A.F.T. Golden Rules of Gun Safety, what does the 'F' stand for?",
+          "options": {
+              "A": "Fire",
+              "B": "Finger",
+              "C": "Fast",
+              "D": "Forward"
+          },
+          "answer": "B",
+          "explanation": "'F' stands for FINGER: never place your finger on the trigger until you are ready to shoot."
+      },
+      {
+          "question": "Can a licensed civilian legally modify their firearm with non-cosmetic parts, like a suppressor?",
+          "options": {
+              "A": "Yes, with a permit",
+              "B": "No",
+              "C": "Yes, if Class 3 licensed",
+              "D": "Only on rifles"
+          },
+          "answer": "B",
+          "explanation": "Modifying a firearm with non-cosmetic parts is Possession of an Illegal Weapon Modification Device and is not allowed."
+      }
+  ],
+
   "10-Codes and Radio Signals": [
   {
       "question": "What does 10-3 mean in radio communication?",
