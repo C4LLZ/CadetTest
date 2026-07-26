@@ -12,15 +12,15 @@
           "explanation": "The highest rank in the chain of command is Chief of Police."
       },
       {
-          "question": "Which rank comes immediately after 'Cadet'?",
+          "question": "Which rank is immediately above 'Cadet' in the chain of command?",
           "options": {
-              "A": "Probationary Officer",
-              "B": "Senior Officer",
+              "A": "Police Officer / Deputy",
+              "B": "Senior Officer / Senior Deputy",
               "C": "Corporal",
-              "D": "Officer"
+              "D": "Sergeant"
           },
           "answer": "A",
-          "explanation": "The rank immediately before Cadet is Probationary Officer."
+          "explanation": "Cadet is the lowest rank in the SASP chain of command; Police Officer / Deputy is the next rank up."
       }
   ],
   
@@ -46,6 +46,17 @@
           },
           "answer": "B",
           "explanation": "Stolen emergency vehicles are automatically ambered."
+      },
+      {
+          "question": "Who is authorized to call Code Red on a suspect who has NOT attacked an officer?",
+          "options": {
+              "A": "Any officer",
+              "B": "Corporal or above",
+              "C": "Sergeant or above",
+              "D": "Only Command staff"
+          },
+          "answer": "C",
+          "explanation": "If no violence is directed at officers, only a Sergeant or above may deem a suspect Code Red. If a suspect attacks an officer, any officer may make that call regardless of rank."
       }
   ],
   
@@ -279,26 +290,26 @@
   
   "Radio Communication": [
       {
-          "question": "What is the recommended format when contacting another unit?",
+          "question": "Which radio channel is designated for regular PD patrol?",
           "options": {
-              "A": "Just the unit number",
-              "B": "'hey YOU it is ME'",
-              "C": "Only the call sign",
-              "D": "State your name only"
+              "A": "Radio 1",
+              "B": "Radio 5",
+              "C": "Radio 16",
+              "D": "Radio 90"
           },
-          "answer": "B",
-          "explanation": "The recommended format is the 'hey YOU it is ME' style for clear communication."
+          "answer": "A",
+          "explanation": "Radio 1 is used for regular PD patrol. Radio 5 is for DOC, and Radio 90 through 99 is for EMS."
       },
       {
-          "question": "How would you contact another department on the radio?",
+          "question": "Which channels can NOT be used as TAC-channels for calls?",
           "options": {
-              "A": "Say 'PD from DOC'",
-              "B": "Say 'DOC from PD'",
-              "C": "Just say 'backup needed'",
-              "D": "Call the department directly"
+              "A": "1 and 5",
+              "B": "16 and 20",
+              "C": "90 and 99",
+              "D": "None, all channels are usable"
           },
           "answer": "B",
-          "explanation": "When contacting another department, you say 'DOC from PD' (or 'EMS from PD' as applicable)."
+          "explanation": "Radio 16 (CID) and Radio 20 (SAO) cannot be used as TAC-channels for calls."
       }
   ],
   
@@ -329,40 +340,40 @@
   
   "Felony Stops": [
       {
-          "question": "What are two ways to initiate a felony stop?",
+          "question": "When performing a Code 5 (felony) stop, how should backup units position themselves once they arrive?",
           "options": {
-              "A": "Wait for backup and tail the vehicle OR pull over and hold occupants at gunpoint",
-              "B": "Immediately arrest the suspect",
-              "C": "Only tail the vehicle",
-              "D": "None of the above"
+              "A": "All units line up directly behind the initiating officer",
+              "B": "One unit left, one unit right of the initiating officer",
+              "C": "Officers form a circle around the vehicle",
+              "D": "Units only block the front of the vehicle"
           },
-          "answer": "A",
-          "explanation": "Felony stops are initiated either by waiting for backup and tailing the vehicle or by pulling the vehicle over and holding the occupants at gunpoint."
+          "answer": "B",
+          "explanation": "Once additional units arrive for a Code 5 stop, one should position left and one right of the initiating officer before all officers exit their vehicles and suspects are ordered out one at a time."
       }
   ],
   
   "Vehicle Pursuits Guidelines": [
       {
-          "question": "What is the primary role of the Primary officer during a vehicle pursuit?",
+          "question": "What does PBS stand for during a vehicle pursuit?",
           "options": {
-              "A": "Handle radio communications",
-              "B": "Keep visual on the suspect's vehicle and provide updates",
-              "C": "Pursue any interfering vehicles",
-              "D": "Parallel the pursuit"
+              "A": "Pursuit Backup System",
+              "B": "Pit Box Spike",
+              "C": "Police Barrier Support",
+              "D": "Primary Backup Signal"
           },
           "answer": "B",
-          "explanation": "The Primary officer’s role is to keep visual on the suspect's vehicle and provide crucial updates."
+          "explanation": "PBS stands for Pit Box Spike. Once approved by a senior officer or above, chasing units may PIT, box, or deploy spikes on the suspect vehicle."
       },
       {
-          "question": "What is the responsibility of the Secondary officer during a pursuit?",
+          "question": "Where is it never allowed to perform a PIT maneuver?",
           "options": {
-              "A": "Handle all radio communications",
-              "B": "Chase the suspect on foot",
-              "C": "Act as a backup only",
-              "D": "Oversee the pursuit strategy"
+              "A": "On a straight highway",
+              "B": "In a parking lot",
+              "C": "On bridges or overpasses",
+              "D": "On a dirt road"
           },
-          "answer": "A",
-          "explanation": "The Secondary officer is responsible for handling radio communications unless there are two officers available."
+          "answer": "C",
+          "explanation": "PITs are not allowed on bridges or overpasses due to the high risk of the suspect vehicle falling off the structure and causing serious injury."
       }
   ],
   
@@ -385,37 +396,37 @@
           "question": "What is required when making an arrest warrant?",
           "options": {
               "A": "Any officer can issue it immediately",
-              "B": "It must be approved by a Sergeant or higher with supporting evidence",
+              "B": "It must be approved by a Sergeant or higher (or a member of the States Attorney's Office) with supporting evidence",
               "C": "No supporting evidence is needed",
               "D": "Only verbal approval is required"
           },
           "answer": "B",
-          "explanation": "An arrest warrant must be approved by a Sgt+ and supported by evidence."
+          "explanation": "Arrest warrants can be approved by a Sergeant or above, or a member of the States Attorney's Office, and require positive identification of the suspect plus probable cause for arrest."
       },
       {
-          "question": "What is the maximum time reduction allowed for a guilty plea without a lawyer?",
+          "question": "What is the maximum fine reduction allowed, even when the suspect has a lawyer present?",
           "options": {
-              "A": "10%",
-              "B": "20%",
+              "A": "20%",
+              "B": "30%",
               "C": "40%",
-              "D": "No reduction"
+              "D": "50%"
           },
           "answer": "C",
-          "explanation": "Up to a 40% time reduction is allowed for a guilty plea when a lawyer is not requested or available."
+          "explanation": "40% is the maximum fine reduction allowed even when working with a lawyer. Without a lawyer (having tried everything to get one), the max is 20% via a Supervisor+ or 30% via Command+."
       }
   ],
   
   "Police Report Guidelines": [
       {
-          "question": "Within how many hours must police reports be completed after an incident?",
+          "question": "When listing a firearm found on scene in a report, how should it be documented?",
           "options": {
-              "A": "12 hours",
-              "B": "24 hours",
-              "C": "48 hours",
-              "D": "72 hours"
+              "A": "By color only",
+              "B": "With its serial number",
+              "C": "By the owner's nickname",
+              "D": "It does not need to be documented"
           },
           "answer": "B",
-          "explanation": "Police reports must be completed within 24 hours of the incident."
+          "explanation": "Firearms should be noted with a serial number, for example 'Heavy Rifle (1234-ABC)', so the evidence can be properly tied to the report."
       },
       {
           "question": "Which of the following is NOT part of the police report guidelines?",
@@ -840,26 +851,15 @@
       "explanation": "10-30 means Wanted Person."
     },
     {
-      "question": "What does 10-31A mean?",
+      "question": "What does 10-49C mean?",
       "options": {
-        "A": "Unregulated fishing activity",
-        "B": "Suspect in Custody",
-        "C": "Stop Transmitting",
-        "D": "Suspicious activity"
+        "A": "Suspicious network activity",
+        "B": "Suspicious hunting activity",
+        "C": "Suspicious fishing activity",
+        "D": "Suspect in Custody"
       },
       "answer": "A",
-      "explanation": "10-31A means Unregulated fishing activity."
-    },
-    {
-      "question": "What does 10-31B mean?",
-      "options": {
-        "A": "Emergency Road Repair",
-        "B": "Scene is Clear",
-        "C": "Ending Tour of Duty",
-        "D": "Unregulated hunting activity"
-      },
-      "answer": "D",
-      "explanation": "10-31B means Unregulated hunting activity."
+      "explanation": "10-49C means Suspicious network activity."
     },
     {
       "question": "What does 10-32 mean?",
@@ -1087,10 +1087,10 @@
         "A": "Return to ______",
         "B": "In Contact With _____",
         "C": "Frequency Change",
-        "D": "Livestock on public road/NOT Bishop's mom"
+        "D": "Livestock on public road (10-Jade)"
       },
       "answer": "D",
-      "explanation": "10-54 means Livestock on public road/NOT Bishop's mom."
+      "explanation": "10-54 means Livestock on public road, also nicknamed '10-Jade' (only officially called that on April 25th)."
     },
     {
       "question": "What does 10-55 mean?",
@@ -1163,11 +1163,11 @@
       "options": {
         "A": "Wanted Person",
         "B": "ATM Robbery",
-        "C": "Fight",
+        "C": "Gang Fight",
         "D": "Pick Up Prisoner"
       },
       "answer": "C",
-      "explanation": "10-61 means Fight."
+      "explanation": "10-61 means Gang Fight."
     },
     {
       "question": "What does 10-62 mean?",
