@@ -413,6 +413,94 @@
           },
           "answer": "C",
           "explanation": "40% is the maximum fine reduction allowed even when working with a lawyer. Without a lawyer (having tried everything to get one), the max is 20% via a Supervisor+ or 30% via Command+."
+      },
+      {
+          "question": "What is the general legal definition of 'Aggravated' under the Penal Code?",
+          "options": {
+              "A": "A charge involving over $5,000 in damages",
+              "B": "The use of a deadly weapon in circumstances attending the commission of a crime",
+              "C": "Any felony committed by a repeat offender",
+              "D": "A charge that always results in a Capital Offense"
+          },
+          "answer": "B",
+          "explanation": "P.C. 1223 defines 'Aggravated' as the use of a deadly weapon in circumstances attending to the commission of a crime."
+      },
+      {
+          "question": "What distinguishes Assault from Battery?",
+          "options": {
+              "A": "Assault requires actual physical contact, Battery does not",
+              "B": "Assault is an attempt or threat to injure, even without contact; Battery is the actual unlawful use of force causing harm",
+              "C": "They are the same charge",
+              "D": "Battery can only be charged against government employees"
+          },
+          "answer": "B",
+          "explanation": "Assault is the unlawful attempt, coupled with present ability, to injure or place someone in fear of imminent injury, even if no harm is actually inflicted. Battery is the actual unlawful use of force or violence causing physical harm to another person."
+      },
+      {
+          "question": "What makes an Assault charge become Aggravated Assault?",
+          "options": {
+              "A": "The victim requests it",
+              "B": "The suspect has a prior record",
+              "C": "The threat or attempt involves a deadly weapon or dangerous instrument",
+              "D": "It occurs at night"
+          },
+          "answer": "C",
+          "explanation": "Aggravated Assault is intentionally threatening or attempting to cause serious bodily harm by means of a deadly weapon or dangerous instrument, even if no contact occurs."
+      },
+      {
+          "question": "What is the key difference between Battery and Aggravated Battery?",
+          "options": {
+              "A": "There is no difference",
+              "B": "Aggravated Battery involves a deadly weapon, dangerous instrument, or object capable of inflicting great bodily harm",
+              "C": "Aggravated Battery only applies to government employees",
+              "D": "Battery is a felony and Aggravated Battery is a misdemeanor"
+          },
+          "answer": "B",
+          "explanation": "Battery is the unlawful use of force causing physical harm without a weapon (a misdemeanor). Aggravated Battery causes or attempts serious bodily injury by means of a deadly weapon, dangerous instrument, or other object capable of inflicting great bodily harm, and is a felony."
+      },
+      {
+          "question": "What is the core distinction between Robbery and Aggravated Robbery?",
+          "options": {
+              "A": "Aggravated Robbery only applies to banks",
+              "B": "Aggravated Robbery involves the use or threatened use of a firearm or weapon that endangers or threatens a person's life",
+              "C": "Robbery is a misdemeanor",
+              "D": "There's no difference besides the fine"
+          },
+          "answer": "B",
+          "explanation": "Aggravated Robbery is the same unlawful taking of property as Robbery, but committed while having, using, or threatening the use of a firearm or other weapon whereby a person's life is endangered or threatened."
+      },
+      {
+          "question": "What separates Voluntary Manslaughter from Involuntary Manslaughter?",
+          "options": {
+              "A": "Voluntary Manslaughter is intentional killing without premeditation; Involuntary Manslaughter is an unintentional killing from a reckless or negligent act",
+              "B": "They are identical charges",
+              "C": "Involuntary Manslaughter always involves a vehicle",
+              "D": "Voluntary Manslaughter is a misdemeanor"
+          },
+          "answer": "A",
+          "explanation": "Voluntary Manslaughter is intentionally killing another without premeditation or deliberation, often as an immediate result of a reckless act or traumatic confrontation. Involuntary Manslaughter is an unintentional killing resulting from a reckless or negligent act, or from committing a non-felony crime."
+      },
+      {
+          "question": "What classification is Vehicular Manslaughter?",
+          "options": {
+              "A": "Misdemeanor",
+              "B": "Felony",
+              "C": "Infraction",
+              "D": "Capital Offense"
+          },
+          "answer": "B",
+          "explanation": "Vehicular Manslaughter, unintentionally killing another through reckless or negligent use of a vehicle, is a Felony."
+      },
+      {
+          "question": "What makes a killing First Degree Murder instead of Second Degree Murder?",
+          "options": {
+              "A": "The type of weapon used",
+              "B": "Premeditated intent, or the killing occurring during the commission of a serious felony like robbery, kidnapping, or carjacking",
+              "C": "The victim being a government employee",
+              "D": "There is no difference between the two"
+          },
+          "answer": "B",
+          "explanation": "First Degree Murder requires premeditated intent, or that the killing occurred while committing or attempting a serious felony (robbery, kidnapping, carjacking, human trafficking, CDS dealing/manufacturing, etc). Second Degree Murder is an unlawful and deliberate killing with malice aforethought, but without premeditation."
       }
   ],
   
