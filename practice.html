@@ -32,6 +32,9 @@
       align-items: center;
       gap: 8px;
       padding: 12px 16px;
+      padding-top: max(12px, env(safe-area-inset-top));
+      padding-left: max(16px, env(safe-area-inset-left));
+      padding-right: max(16px, env(safe-area-inset-right));
       background: var(--panel);
       border-bottom: 1px solid var(--border);
     }
@@ -51,8 +54,9 @@
     }
     iframe {
       display: block;
-      width: 100vw;
+      width: 100%;
       height: calc(100vh - 116px);
+      -webkit-overflow-scrolling: touch;
       border: none;
     }
     .back-btn {
@@ -62,7 +66,7 @@
       right: 0;
       background-color: var(--panel);
       border-top: 1px solid var(--border);
-      padding: 10px;
+      padding: 10px max(10px, env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left));
       z-index: 100;
       text-align: center;
     }
@@ -93,9 +97,39 @@
       <h1>Cadet Sheet</h1>
     </div>
   </div>
-  <iframe src="cadet.html"></iframe>
+  <iframe id="sheet-frame" src="cadet.html"></iframe>
   <div class="back-btn">
     <button class="btn" onclick="window.location.href='index.html'">Back to Quiz</button>
   </div>
+  <script>
+    // cadet.html is a pdf2htmlEX export with fixed-pixel-width pages, so on a
+    // phone it renders far wider than the screen. Scale it down to fit instead
+    // of forcing users to pinch-zoom and pan just to read the sheet.
+    var frame = document.getElementById('sheet-frame');
+
+    function fitSheetToWidth() {
+      var doc;
+      try {
+        doc = frame.contentDocument;
+      } catch (e) {
+        return; // cross-origin (e.g. opened via file://) — fall back to native scroll/zoom
+      }
+      if (!doc) return;
+      var container = doc.getElementById('page-container');
+      var firstPage = doc.querySelector('.pf');
+      if (!container || !firstPage) return;
+
+      container.style.zoom = 1;
+      var naturalWidth = firstPage.offsetWidth;
+      if (!naturalWidth) return;
+
+      var availableWidth = frame.clientWidth - 8;
+      var scale = Math.min(1, availableWidth / naturalWidth);
+      container.style.zoom = scale;
+    }
+
+    frame.addEventListener('load', fitSheetToWidth);
+    window.addEventListener('resize', fitSheetToWidth);
+  </script>
 </body>
 </html>

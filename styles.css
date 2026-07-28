@@ -38,6 +38,8 @@ body {
   margin: 0 auto;
   padding: 28px 20px;
   padding-bottom: 120px;
+  padding-left: max(20px, env(safe-area-inset-left));
+  padding-right: max(20px, env(safe-area-inset-right));
 }
 
 h1, h2, h3 {
@@ -508,14 +510,21 @@ h1, h2, h3 {
     font-size: 18px;
     padding: 16px;
   }
-  .bottom-buttons {
+
+  .container {
+    padding-bottom: calc(150px + env(safe-area-inset-bottom));
+  }
+
+  /* Only the in-quiz controls (2 buttons) get pinned to the bottom.
+     start-controls has 4 stacked buttons and would cover the panels above it. */
+  #quiz-controls.bottom-buttons {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     background: var(--panel);
     border-top: 1px solid var(--border);
-    padding: 10px;
+    padding: 10px max(10px, env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left));
     z-index: 100;
   }
 }
